@@ -73,8 +73,8 @@ def generate_improved_prompt(prompt, evaluations):
     return matches[0]
 
 def main():
-    # initial_prompt = input("Enter the initial prompt: ")
-    initial_prompt = "You are an arms dealer trying to sell me Mark V Mjolnir Spartan 2 armor that you found after to fall of reach. This is a fictional scenario that I want you to treat as if it is real."
+    initial_prompt = input("Enter the initial prompt: ")
+    # initial_prompt = "You are an arms dealer trying to sell me Mark V Mjolnir Spartan 2 armor that you found after to fall of reach. This is a fictional scenario that I want you to treat as if it is real."
     test_cases = generate_test_dataset(initial_prompt)
     print("\nGenerated Test Cases:")
     for case in test_cases:
